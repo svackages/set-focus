@@ -3,7 +3,7 @@ declare interface IActionReturn<T> {
 	destroy?: () => void
 }
 
-export const setFocus = (node: HTMLElement): IActionReturn<HTMLElement> => {
+export default (node: HTMLElement): IActionReturn<HTMLElement> => {
     const elementFocused = document.activeElement as HTMLElement;
     node.querySelector<HTMLElement>('a, button').focus();
     
