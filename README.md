@@ -1,3 +1,4 @@
+![svackage logo](https://raw.githubusercontent.com/svackages/persistent-store/main/logo.png)
 # Svelte action set-focus
 
 - will set focus on `a` or `button` as soon as element mounts.
