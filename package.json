@@ -1,5 +1,5 @@
 {
-  "name": "set-focus",
+  "name": "@svackages/set-focus",
   "version": "1.0.0",
   "scripts": {
     "dev": "svelte-kit dev",
